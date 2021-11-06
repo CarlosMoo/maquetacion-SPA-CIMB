@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.ancho{
+    max-width: 1200px;
+    margin: auto;
+}
+
+body{
+    background-color: #FDF9F0;
+}
+
+#line-pinkhd{
+    border: 0.5px #E5357E solid;
+    background-color: #E5357E ;
+    height: 12px;
+}
+
+.iconos a i{
+    color: black;
+}
+
+.iconos a > i{
+    font-size: 45px;
+}
+
+.hd{
+    margin-top: 20px;
+    display: grid;
+    grid-template: auto/repeat(2, 1fr);
+}
+
+.hd div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px;
+    margin: 0 20px 0 20px;
+}
+
+/* nav */
+
+nav{
+    margin-bottom: 20px;
+    border: 3px  black solid;
+    padding: 10px;
+}
+
+.menu{
+    display: grid;
+    grid-template: auto/repeat(4,1fr);
+    list-style: none;
+}
+
+.menu li{
+    text-align: center;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: black;
+    font-size: 16px;
+}
+
+/* section image */
+
+.bg-image{
+    margin-top: 30px;
+    background-image: url(/img/fondopiedras.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bg-image article h1{
+    font-family: 'Arial', sans-serif;
+    font-weight: bolder;
+    font-size: 32px;
+    color: white;
+}
+
+.bg-image article h2{
+    font-family: 'Arial', sans-serif;
+    font-weight: 550;
+    font-size: 20px;
+    color: white;
+    width: 700px;
+    margin: 20px 0 40px 0;
+}
+
+.btn-spa{
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    border: 3px #E5357E solid;
+    display: inline-block;
+    background-color: #E5357E;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+.btn-spa:hover{
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    border: 3px #E5357E solid;
+    display: inline-block;
+    background-color: transparent;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+.btn-spa:nth-child(1){
+    margin-right: 30px;
+}
