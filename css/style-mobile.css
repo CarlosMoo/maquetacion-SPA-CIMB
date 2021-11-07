@@ -104,4 +104,30 @@
     .texto{
         gap: 20px;
     }
+
+    /* Tratamientos */
+
+    .blog-post{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .post{
+        width: 390px;
+    }
+
+    .tratamientos{
+        margin-top: 20px;
+    }
+    
+    /* footer */
+
+    .bg-footer hr{
+        display: none;
+    }
+
+    .bg-footer{
+        margin-top: 20px;
+    }
 }
