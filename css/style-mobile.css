@@ -52,7 +52,6 @@
         width: 350px;
         text-align: center;
     }
-
     .bg-image article h1{
         width: 350px;
         font-family: 'Arial', sans-serif;
@@ -60,5 +59,49 @@
         font-size: 32px;
         color: white;
         text-align: left;
+    }
+
+    /* Sciencie of Beauty */
+
+    .bg-blanco figure{
+        width: auto;
+        justify-content: center;
+    }
+
+    .bg-blanco figure img{
+        width: auto;
+        max-width: 390px;
+        margin-left: 0;
+    }
+
+    .bg-blanco{
+        flex-direction: column-reverse;
+        height: auto;
+        gap: 20px;
+        width: auto;
+        max-width: 414px;
+    }
+
+    .bg-blanco div{
+        font-family: 'Roboto', sans-serif;
+        margin-top: 0px;
+        width: auto;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    /* Aromatizante */
+
+    .aromatizante-blog{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aromatizante-blog figure img{
+        width: 390px;
+    }
+
+    .texto{
+        gap: 20px;
     }
 }
